@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1668183864285" clover="3.2.0">
+  <project timestamp="1668183864286" name="All files">
+    <metrics statements="133" coveredstatements="88" conditionals="18" coveredconditionals="11" methods="35" coveredmethods="24" elements="186" coveredelements="123" complexity="0" loc="133" ncloc="133" packages="2" files="10" classes="10"/>
+    <package name="src.modules">
+      <metrics statements="131" coveredstatements="86" conditionals="18" coveredconditionals="11" methods="34" coveredmethods="23"/>
+      <file name="clearCompletedTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\clearCompletedTodo.js">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="completeTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\completeTodo.js">
+        <metrics statements="15" coveredstatements="13" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+      </file>
+      <file name="createTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\createTodo.js">
+        <metrics statements="15" coveredstatements="14" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+      </file>
+      <file name="deleteTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\deleteTodo.js">
+        <metrics statements="15" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+      </file>
+      <file name="draggableSort.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\draggableSort.js">
+        <metrics statements="16" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+      <file name="renderTodos.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\renderTodos.js">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="32" count="10" type="stmt"/>
+      </file>
+      <file name="saveTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\saveTodo.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+      </file>
+      <file name="todos.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\todos.js">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="20" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="updateTodo.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\src\modules\updateTodo.js">
+        <metrics statements="47" coveredstatements="20" conditionals="4" coveredconditionals="2" methods="7" coveredmethods="4"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="60" count="8" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+        <line num="63" count="10" type="stmt"/>
+        <line num="64" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="unit test.__mock__">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="createTodoDomMock.js" path="C:\Users\Coding\Desktop\Microverse\todo-list\unit test\__mock__\createTodoDomMock.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
