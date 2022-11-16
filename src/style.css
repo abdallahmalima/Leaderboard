@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+}
+
+.table-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-title {
+  display: flex;
+}
+
+.add-score-form {
+  display: flex;
+  flex-direction: column;
+}
