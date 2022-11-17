@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #eee;
+  --weight-700: 700;
+  --size-21: 21px;
+  --family-self: sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -5,24 +13,114 @@
 }
 
 .content {
+  margin-top: 21px;
   display: flex;
+  flex-direction: column-reverse;
+  padding-inline: 15px;
+  gap: 19px;
+}
+
+h1 {
+  padding-inline: 15px;
+  font-family: var(--family-self);
+  margin: auto;
+  text-align: center;
+  font-weight: var(--weight-700);
+  font-size: 33px;
+}
+
+table {
+  outline: 3px solid black;
+}
+
+table tr td {
+  padding: 9px;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-family: var(--family-self);
+  font-size: 17px;
+}
+
+table tr:nth-child(odd) {
+  background: var(--secondary-color);
 }
 
 .table-content {
   display: flex;
   flex-direction: column;
+  gap: 11px;
 }
 
 .form-content {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  gap: 9px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form button {
+  align-self: flex-end;
+  padding-block: 5px;
+  padding-inline: 17px;
+  box-shadow: 3px 3px 0 0 var(--primary-color);
+}
+
+.refresh-btn {
+  padding-block: 3px;
+  padding-inline: 15px;
+  box-shadow: 3px 3px 0 0 var(--primary-color);
+}
+
+form input {
+  padding: 7px;
 }
 
 .table-title {
   display: flex;
+  justify-content: space-between;
+  color: var(--primary-color);
+  font-weight: var(--weight-700);
+}
+
+.title {
+  margin: 7px;
+}
+
+h3 {
+  font-size: var(--size-21);
+  font-family: var(--family-self);
 }
 
 .add-score-form {
   display: flex;
   flex-direction: column;
+}
+
+.form-title {
+  align-self: flex-start;
+}
+
+@media all and  (min-width: 768px) {
+  h1 {
+    margin-bottom: 51px;
+  }
+
+  .content {
+    flex-direction: row;
+    gap: 31px;
+    width: 39%;
+    justify-content: space-between;
+    margin: auto;
+  }
+
+  .table-content {
+    width: 100%;
+  }
 }
